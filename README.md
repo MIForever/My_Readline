@@ -1,5 +1,5 @@
 # Welcome to My Readline
-This was arduous
+***
 
 ## Task
 The task itself is a big challenge. The task was recreating the readline function using only limited functions.
