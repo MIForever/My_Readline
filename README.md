@@ -13,7 +13,26 @@ Nothing to install. Just use it as ordinary functions.
 ## Usage
 You give it int value that identificator of an open file. Every time you call it with the same identificator it returns by 1 full line till it reaches the EOF.
 ```
-./my_project argument1 argument2
+  int READLINE_READ_SIZE = 512;
+  
+  int main(int ac, char **av)
+  {
+    char *str = NULL;
+  
+    int fd = open("./file.txt", O_RDONLY);
+    while ((str = my_readline(fd)) != NULL)
+    {
+        printf("%s\n", str);
+        free(str);
+    }
+    close(fd);
+    //
+    //  Yes it's also working with stdin :-)
+    //  printf("%s", my_readline(0));
+    //
+  
+    return 0;
+  }
 ```
 
 ### The Core Team
