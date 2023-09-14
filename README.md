@@ -12,7 +12,7 @@ Nothing to install. Just use it as ordinary functions.
 
 ## Usage
 You give it int value that identificator of an open file. Every time you call it with the same identificator it returns by 1 full line till it reaches the EOF.
-```
+```c
   int READLINE_READ_SIZE = 512;
   
   int main(int ac, char **av)
