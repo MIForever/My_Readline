@@ -2,16 +2,16 @@
 This was arduous
 
 ## Task
-Task istself is a big challange. Task was recreating readline function using only limited functions.
+The task itself is a big challenge. The task was recreating the readline function using only limited functions.
 
 ## Description
-I stucked it for more than 1 month, probably 2 months. Today i created a simple function that stips from end of the string. And this is it! my code worked finally.
+I stuck it for more than 1 month, probably 2 months. Today I created a simple function that stips from the end of the string. And this is it! my code worked finally.
 
 ## Installation
 Nothing to install. Just use it as ordinary functions.
 
 ## Usage
-You give it int value that identificator of an open file. Every time you call it with the same identificator it returns by 1 full line till it reaches the EOF.
+You give it the int value that identifies an open file. Every time you call it with the same identificator it returns by 1 full line till it reaches the EOF.
 ```c
 int READLINE_READ_SIZE = 512;
 
